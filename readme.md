@@ -8,7 +8,7 @@ $('body').m7plugin({<br />
 
 <p>There are some (blissfully unaware) contributors so I have linked them below.</p>
 
-<p>Other than that it seems fine you can demo at <a target="_blank" href="http://bit.ly/11DRTNd">http://jsfiddle.net/5azwN/29/</a></p>
+<p>Other than that it seems fine you can demo at <a target="_blank" href="http://bit.ly/11DRTNd">http://bit.ly/11DRTNd</a></p>
 
 <h2>Resources</h2>
 
