@@ -1,4 +1,4 @@
-<h1>jQuery Plugin Template for testing Unit-testing (qunit)</h1>
+<h1>jQuery Plugin Template for Unit-testing (qunit)</h1>
 
 <p>This can be achieved by setting the debug variable to true:<br />
 $('body').m7plugin({<br />
