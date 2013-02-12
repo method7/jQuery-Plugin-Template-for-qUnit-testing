@@ -38,13 +38,13 @@
                 // init plugin
                 $.m7plugin = {
                     debug: debug,
-                    id: 'pluginDemo',
-                    version: '0.0.1',
-                    copyright: 'Copyright (c) 2005-2013 Simon Tregunna',
-                    uri: 'http://method7.co.uk/',
+                    id: "pluginDemo",
+                    version: "0.0.1",
+                    copyright: "Copyright (c) 2005-2013 Simon Tregunna",
+                    uri: "http://method7.co.uk/",
                     licensed: {
-                        MIT: 'http://www.opensource.org/licenses/mit-license.php',
-                        GPL: 'http://www.gnu.org/licenses/gpl.html'
+                        MIT: "http://www.opensource.org/licenses/mit-license.php",
+                        GPL: "http://www.gnu.org/licenses/gpl.html"
                     }
                 };
 
@@ -61,7 +61,7 @@
                     return this.each(function () {
                         var element = $(this),
                             defaults = {
-                                someVair: 'somevalue'
+                                someVair: "somevalue"
                             },
                             settings = $.extend(defaults, options);
 
@@ -69,8 +69,7 @@
                         init(settings.debug);
 
                         // plugin code here
-                        log("m7plugin - private method: ", settings.someOpt);
-                        log("m7plugin - private method: ", methods.toLowerCase('TOLOERCASE'));
+                        log("m7plugin - private method: ", methods.toLowerCase("TOLOERCASE"));
 
                         // store a reference in the extended plugin
                         var toLower = methods.toLowerCase;
@@ -83,8 +82,8 @@
 
         $(window).load(function () {
             
-            //console.log("public methods - toLowerCase: ", window.qUnitMethods.toLowerCase('TOLOERCASE'));
-            $('body').m7plugin({
+            //console.log("public methods - toLowerCase: ", window.qUnitMethods.toLowerCase("TOLOERCASE"));
+            $("body").m7plugin({
                 debug: true
             });
 
@@ -98,9 +97,9 @@
                 expect(3);
 
                 //day and month replacment
-                ok(typeof qUnitMethods !== 'undefined', "make function firstMethod() public");
-                deepEqual(qUnitMethods.firstMethod(), 'rightString', "firstMethod() return expected string");
-                deepEqual(qUnitMethods.toLowerCase('TOLOERCASE'), 'toloercase', "toLowerCase() return expected string");
+                ok(typeof qUnitMethods !== "undefined", "make function firstMethod() public");
+                deepEqual(qUnitMethods.firstMethod(), "rightString", "firstMethod() return expected string");
+                deepEqual(qUnitMethods.toLowerCase("TOLOERCASE"), "toloercase", "toLowerCase() return expected string");
 
                 //QUnit.start();
             });
