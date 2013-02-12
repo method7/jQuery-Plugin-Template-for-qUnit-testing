@@ -4,7 +4,7 @@
 $('body').m7plugin({<br />
 &nbsp;&nbsp;&nbsp;&nbsp;debug: true<br />
 });</p>
-<p>This template is relatively untested no guarantees and what not but it seems to be a goo starting point. No point in over engineering your plugins :-P. Feel free to do as you will.</p>
+<p>This template is relatively untested no guarantees and what not but it seems to be a good starting point. No point in over engineering your plugins :-P. Feel free to do as you will.</p>
 
 <p>There are some (blissfully unaware) contributors so I have linked them below.</p>
 
